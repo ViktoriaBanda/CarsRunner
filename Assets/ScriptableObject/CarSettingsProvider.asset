@@ -1,0 +1,83 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5da8ed0bdab799b4ab3864c590eb1e2d, type: 3}
+  m_Name: CarSettingsProvider
+  m_EditorClassIdentifier: 
+  _carSettings:
+  - PlayerName: 
+    Name: Ambulance
+    Prefab: {fileID: 7566650034286106698, guid: 9f05ce03d037ebd468ef0fd8302816bd, type: 3}
+    Icon: {fileID: 21300000, guid: 3f437702be6d9e24b8320c894e1d670d, type: 3}
+    Characteristics:
+    - Name: "max \u043A\u043C/\u0447"
+      Value: 80
+      MaxValue: 200
+    - Name: "\u0443\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u043C\u043E\u0441\u0442\u044C"
+      Value: 50
+      MaxValue: 150
+    - Name: "\u0443\u0441\u0442\u043E\u0439\u0447\u0438\u0432\u043E\u0441\u0442\u044C"
+      Value: 180
+      MaxValue: 200
+    - Name: "\u0432\u0435\u0441"
+      Value: 2500
+      MaxValue: 3000
+  - PlayerName: 
+    Name: Hatchback
+    Prefab: {fileID: 3318336637134618029, guid: 43d94103d2e6e354383ad67af501e7e0, type: 3}
+    Icon: {fileID: 21300000, guid: 6cc3d8d55554bbe4cadaaa1bb9068a11, type: 3}
+    Characteristics:
+    - Name: "max \u043A\u043C/\u0447"
+      Value: 100
+      MaxValue: 200
+    - Name: "\u0443\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u043C\u043E\u0441\u0442\u044C"
+      Value: 100
+      MaxValue: 150
+    - Name: "\u0443\u0441\u0442\u043E\u0439\u0447\u0438\u0432\u043E\u0441\u0442\u044C"
+      Value: 100
+      MaxValue: 200
+    - Name: "\u0432\u0435\u0441"
+      Value: 1200
+      MaxValue: 3000
+  - PlayerName: 
+    Name: Sedan
+    Prefab: {fileID: 7278632162564887243, guid: 0b822e0f4229f84458056d0313f62f6e, type: 3}
+    Icon: {fileID: 21300000, guid: 4ebfae090e760bf40b3d6b78235f6cb4, type: 3}
+    Characteristics:
+    - Name: "max \u043A\u043C/\u0447"
+      Value: 120
+      MaxValue: 200
+    - Name: "\u0443\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u043C\u043E\u0441\u0442\u044C"
+      Value: 100
+      MaxValue: 150
+    - Name: "\u0443\u0441\u0442\u043E\u0439\u0447\u0438\u0432\u043E\u0441\u0442\u044C"
+      Value: 120
+      MaxValue: 200
+    - Name: "\u0432\u0435\u0441"
+      Value: 1500
+      MaxValue: 3000
+  - PlayerName: 
+    Name: Police
+    Prefab: {fileID: 8067578496775724658, guid: edae7af5237e02741918feec226754cb, type: 3}
+    Icon: {fileID: 21300000, guid: 1ab210c35880921438fb7db321a601a0, type: 3}
+    Characteristics:
+    - Name: "max \u043A\u043C/\u0447"
+      Value: 180
+      MaxValue: 200
+    - Name: "\u0443\u043F\u0440\u0430\u0432\u043B\u044F\u0435\u043C\u043E\u0441\u0442\u044C"
+      Value: 140
+      MaxValue: 150
+    - Name: "\u0443\u0441\u0442\u043E\u0439\u0447\u0438\u0432\u043E\u0441\u0442\u044C"
+      Value: 180
+      MaxValue: 200
+    - Name: "\u0432\u0435\u0441"
+      Value: 1800
+      MaxValue: 3000
